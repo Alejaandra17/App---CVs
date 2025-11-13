@@ -6,6 +6,7 @@
   <title>@yield('title', 'Gestor de Currículums')</title>
   <link rel="icon" href="{{ url('favicon.ico') }}">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
   <style>
     :root {
@@ -20,7 +21,6 @@
       color: #333;
     }
 
-    /* Navbar */
     .navbar {
       background-color: var(--color-primario);
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -41,12 +41,10 @@
       text-decoration: underline;
     }
 
-    /* Contenido principal */
     main {
       padding-top: 90px;
     }
 
-    /* Tarjetas */
     .card {
       border: none;
       border-radius: 0.75rem;
@@ -60,7 +58,6 @@
       box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
     }
 
-    /* Imágenes uniformes */
     .cv-foto {
       width: 100%;
       height: 220px;
@@ -70,14 +67,6 @@
       background-color: #f1f5f9;
     }
 
-    /* Encabezado */
-    .page-header {
-      border-bottom: 2px solid var(--color-secundario);
-      margin-bottom: 2rem;
-      padding-bottom: 1rem;
-    }
-
-    /* Footer */
     footer {
       margin-top: 3rem;
       padding: 2rem 0;
@@ -119,10 +108,6 @@
 
   <!-- CONTENIDO -->
   <main class="container">
-    <div class="page-header text-center">
-      <h1 class="fw-bold">@yield('title', 'Gestor de Currículums')</h1>
-    </div>
-
     <!-- Mensajes -->
     @if(session('success'))
       <div class="alert alert-success">{{ session('success') }}</div>
