@@ -41,13 +41,13 @@ Permite registrar, visualizar, editar y eliminar alumnos, así como almacenar su
 
    ```bash
    composer install
-   ```
+````
 
 3. **Copia el archivo de entorno**
 
    ```bash
    cp .env.example .env
-   ```
+````
 
 4. **Configura la base de datos**
 
@@ -57,25 +57,25 @@ Permite registrar, visualizar, editar y eliminar alumnos, así como almacenar su
      DB_DATABASE=nombre_basedatos
      DB_USERNAME=tu_usuario
      DB_PASSWORD=tu_contraseña
-     ```
+````
 
 5. **Ejecuta las migraciones**
 
    ```bash
    php artisan migrate
-   ```
+````
 
 6. **Crea el enlace simbólico al almacenamiento**
 
    ```bash
    php artisan storage:link
-   ```
+````
 
 7. **Inicia el servidor**
 
    ```bash
    php artisan serve
-   ```
+````
 
 8. Accede desde tu navegador:
    [http://localhost:8000](http://localhost:8000)
