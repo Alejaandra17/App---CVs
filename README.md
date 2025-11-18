@@ -150,6 +150,5 @@ Cada registro de alumno incluye:
 **Desarrollado por:** *ALEJANDRA FERNANDEZ LOPEZ*
 **Versión:** 1.0
 **Framework:** Laravel 12.x
-**Fecha:** * *
 
 ---
