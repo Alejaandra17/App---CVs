@@ -82,7 +82,7 @@ Permite registrar, visualizar, editar y eliminar alumnos, así como almacenar su
 
 ---
 
-## 🧠 Estructura básica de la aplicación
+## Estructura básica de la aplicación
 
 | Archivo / Carpeta                           | Descripción                                                  |
 | ------------------------------------------- | ------------------------------------------------------------ |
@@ -94,7 +94,7 @@ Permite registrar, visualizar, editar y eliminar alumnos, así como almacenar su
 
 ---
 
-### 📄 Listado de alumnos
+### Listado de alumnos
 
 * Tarjetas con foto, nombre, correo y botones para ver, editar o eliminar.
  <img width="1248" height="549" alt="image" src="https://github.com/user-attachments/assets/2e13185c-2266-42cc-b939-de56b4dc1191" />
