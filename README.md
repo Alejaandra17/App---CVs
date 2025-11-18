@@ -80,7 +80,7 @@ Permite registrar, visualizar, editar y eliminar alumnos, así como almacenar su
 8. Accede desde tu navegador:
    [http://localhost:8000](http://localhost:8000)
 
----
+````
 
 ## Estructura básica de la aplicación
 
@@ -92,7 +92,7 @@ Permite registrar, visualizar, editar y eliminar alumnos, así como almacenar su
 | `storage/app/private`                       | Carpeta donde se guardan las fotos de los alumnos.           |
 | `routes/web.php`                            | Definición de rutas principales de la aplicación.            |
 
----
+````
 
 ### Listado de alumnos
 
@@ -113,7 +113,7 @@ Permite registrar, visualizar, editar y eliminar alumnos, así como almacenar su
 <img width="1361" height="942" alt="image" src="https://github.com/user-attachments/assets/af8f334e-1765-4e9d-a318-a29aa724f3f1" />
 
 
----
+````
 
 ## Gestión de fotografías privadas
 
@@ -125,7 +125,7 @@ Laravel expone las imágenes de forma controlada mediante una **ruta protegida**
 ```php
 Route::get('/alumnos/{alumno}/fotografia', [AlumnoController::class, 'mostrarFoto'])
     ->name('alumnos.fotografia');
-```
+````
 
 El controlador valida que el archivo exista y lo devuelve con `response()->file()`.
 
